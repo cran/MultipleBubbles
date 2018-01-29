@@ -1,0 +1,18 @@
+Package: MultipleBubbles
+Version: 0.1.0
+Date: 2018-01-25
+Title: Test and Detection of Explosive Behaviors for Time Series
+Author: Pedro Araujo <pharaujo1094@gmail.com>
+     Gustavo Lacerda <gustavolacerdas@gmail.com>
+     Peter C.B. Phillips <peter.phillips@yale.edu>
+     Shu-Ping Shi <shuping.shi@mq.edu.au>
+Maintainer: Pedro Araujo <pharaujo1094@gmail.com>
+Description: Provides the Augmented Dickey-Fuller test and its variations to check the existence of bubbles (explosive behavior) for time series, based on the article by Peter C. B. Phillips, Shuping Shi and Jun Yu (2015a) <doi:10.1111/iere.12131>. Some functions may take a while depending on the size of the data used, or the number of Monte Carlo replications applied.
+License: GPL (>= 2)
+Imports: MASS (>= 7.3), foreach (>= 1.4.3), stats
+LazyData: TRUE
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Packaged: 2018-01-28 10:07:23 UTC; Pedro
+Repository: CRAN
+Date/Publication: 2018-01-29 12:13:59 UTC
