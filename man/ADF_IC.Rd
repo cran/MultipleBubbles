@@ -22,8 +22,9 @@ Calculate the Augmented Dickey-Fuller Statistic with lag order selected by AIC o
 y <- rnorm(10)
 ADF_IC(y, adflag = 1, mflag = 2, IC = 1)
 ADF_IC(y, adflag = 1, mflag = 2, IC = 2)
+
 }
 \references{
-Phillips, P.C. & Shi, S. & Yu, J. (2015a). "Testing for Multiple Bubbles: Historical Episodes of Exuberance and Collapse in the S&P 500". \emph{SSRN Electronic Journal}.
+Phillips, P.C. & Shi, S. & Yu, J. (2013). "Testing for Multiple Bubbles: Historical Episodes of Exuberance and Collapse in the S&P 500". \emph{SSRN Electronic Journal}.
 }
 \keyword{AugmentedDickey-FullerTest.}

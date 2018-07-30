@@ -7,15 +7,13 @@
 #' @param mflag 1 for ADF with constant and whithout trend, 2 for ADF with constant and trend and 3 for ADF without constant and trend.
 #' @param IC 1 for AIC and 2 for BIC.
 #' @keywords AugmentedDickey-FullerTest.
-#' @references Phillips, P.C. & Shi, S. & Yu, J. (2015a). "Testing for Multiple Bubbles: Historical Episodes of Exuberance and Collapse in the S&P 500". \emph{SSRN Electronic Journal}.
-#' @import stats
-#' @import foreach
-#' @import MASS
+#' @references Phillips, P.C. & Shi, S. & Yu, J. (2013). "Testing for Multiple Bubbles: Historical Episodes of Exuberance and Collapse in the S&P 500". \emph{SSRN Electronic Journal}.
 #' @export
 #' @examples
 #' y <- rnorm(10)
 #' ADF_IC(y, adflag = 1, mflag = 2, IC = 1)
 #' ADF_IC(y, adflag = 1, mflag = 2, IC = 2)
+#'
 
 ADF_IC <- function(y, adflag, mflag, IC){
   t0 <- length(y)

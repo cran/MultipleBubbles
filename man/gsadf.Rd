@@ -4,12 +4,18 @@
 \alias{gsadf}
 \title{Critical values for generalized sup ADF statistic sequence.}
 \usage{
-gsadf(m, t)
+gsadf(m, t, adflag = 0, mflag = 1, swindow0 = floor(r0 * t))
 }
 \arguments{
 \item{m}{Number of Monte Carlo Simulations. Default equals 2000. Must be bigger than 2.}
 
 \item{t}{Sample size. Default equals 100. Must be bigger than 2.}
+
+\item{adflag}{Number of lags to be included in the ADF Test. Default equals 0.}
+
+\item{mflag}{1 for ADF with constant and whithout trend, 2 for ADF with constant and trend and 3 for ADF without constant and trend.}
+
+\item{swindow0}{Minimum window size.}
 }
 \description{
 Calculate critical value sequences for the generalized sup ADF statistic sequence
